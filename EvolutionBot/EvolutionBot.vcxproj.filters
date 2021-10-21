@@ -1,0 +1,612 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\agent">
+      <UniqueIdentifier>{0fb061f3-7573-45be-8d70-c84ea5073f78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\agent">
+      <UniqueIdentifier>{1b6031a5-272c-4448-a66a-7849abcfa52c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\glui">
+      <UniqueIdentifier>{4ecf9ee5-c3e1-49bf-b0b2-211a7dfb445f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\glui">
+      <UniqueIdentifier>{9d4d8ec6-1151-4179-b723-bc23d10635da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\glut">
+      <UniqueIdentifier>{037215e0-7f94-43f0-8b77-7a89056834f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\glut">
+      <UniqueIdentifier>{a4dd8b6e-d1f4-4414-b70f-42295a017fe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\misc">
+      <UniqueIdentifier>{acda0356-2591-4be0-b4d3-6affac08ab6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\misc">
+      <UniqueIdentifier>{736e5e45-58b9-4305-8625-eb32d3466cde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\world">
+      <UniqueIdentifier>{6e49103a-ac61-44d8-ae79-e64a529d0881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\world">
+      <UniqueIdentifier>{cd958dd5-1d2d-4309-92fb-7af488312ff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\glut\src">
+      <UniqueIdentifier>{a608cd8a-4c9b-4501-a911-2af98c36f1ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\glut\GL">
+      <UniqueIdentifier>{72252980-6400-4e69-869c-5235f5c7b407}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\glut\src">
+      <UniqueIdentifier>{8556a1cf-1d91-4923-91ed-10a7f57ea65e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\glut\src\x11">
+      <UniqueIdentifier>{6fbceafa-35e0-4bed-8fef-65d35b5de697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\glut\src\wayland">
+      <UniqueIdentifier>{32f0b721-f2a9-47ba-8f56-572cce2769fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\glut\src\util">
+      <UniqueIdentifier>{ed938b7c-47d8-4b87-96f0-6395e0b6de98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\glut\src\osx">
+      <UniqueIdentifier>{bd197e31-dcc3-4a68-bffd-251c5afaf65d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\glut\src\mswin">
+      <UniqueIdentifier>{31920468-225f-465a-abf7-7139b17b6541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\glut\src\egl">
+      <UniqueIdentifier>{8515fc61-60ea-4493-90a8-d441cc63cc84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\glut\src\blackberry">
+      <UniqueIdentifier>{0ce6c96b-67f5-4ae7-a86b-19b5ba79ab42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\glut\src\android">
+      <UniqueIdentifier>{dd8da091-2fd6-4b14-9784-65ac04d0665a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\glut\src\android\native_app_glue">
+      <UniqueIdentifier>{db2aec0d-311e-4de0-bed4-f5eb31b2a3fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\glut\src\android">
+      <UniqueIdentifier>{e4f6d942-e83d-45e9-bf27-e26962b2f4aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\glut\src\android\native_app_glue">
+      <UniqueIdentifier>{0cb0e05b-f396-410e-b559-618268aad1dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\glut\src\blackberry">
+      <UniqueIdentifier>{05af3334-6b7f-4f8c-8aa9-4dcb9e402a7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\glut\src\egl">
+      <UniqueIdentifier>{c8b6090e-0af8-4d78-8733-44e2f825f50e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\glut\src\mswin">
+      <UniqueIdentifier>{a655e9f4-6afa-421b-9eb6-cc550d2b2fe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\glut\src\osx">
+      <UniqueIdentifier>{890ae242-4521-4c81-aad2-ea81dc00907d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\glut\src\util">
+      <UniqueIdentifier>{cba2253a-996a-4ee3-9d3b-bb16d33b1d22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\glut\src\wayland">
+      <UniqueIdentifier>{2f555aab-c599-4b28-aad0-5740c512d09d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\glut\src\x11">
+      <UniqueIdentifier>{2c404b9d-3279-46ba-888a-10f19d953217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\glui\GL">
+      <UniqueIdentifier>{8c0d9667-66b6-485c-b3a5-883e17519908}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="world\main.cpp">
+      <Filter>Source Files\world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\ReadWrite.cpp">
+      <Filter>Source Files\world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\View.cpp">
+      <Filter>Source Files\world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\World.cpp">
+      <Filter>Source Files\world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\World2.cpp">
+      <Filter>Source Files\world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\GLView.cpp">
+      <Filter>Source Files\world</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\cli.cpp">
+      <Filter>Source Files\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\MyVectors.cpp">
+      <Filter>Source Files\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\MyVectors2.cpp">
+      <Filter>Source Files\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\seed.cpp">
+      <Filter>Source Files\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\VectorMLPBox.cpp">
+      <Filter>Source Files\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\vmath.cpp">
+      <Filter>Source Files\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="agent\MLPBrain2.cpp">
+      <Filter>Source Files\agent</Filter>
+    </ClCompile>
+    <ClCompile Include="agent\Agent.cpp">
+      <Filter>Source Files\agent</Filter>
+    </ClCompile>
+    <ClCompile Include="agent\Agent2.cpp">
+      <Filter>Source Files\agent</Filter>
+    </ClCompile>
+    <ClCompile Include="agent\AssemblyBrain.cpp">
+      <Filter>Source Files\agent</Filter>
+    </ClCompile>
+    <ClCompile Include="agent\DWRAONBrain.cpp">
+      <Filter>Source Files\agent</Filter>
+    </ClCompile>
+    <ClCompile Include="agent\MLPBrain.cpp">
+      <Filter>Source Files\agent</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\mswin\fg_input_devices_mswin.c">
+      <Filter>Source Files\glut\src\mswin</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\mswin\fg_state_mswin.c">
+      <Filter>Source Files\glut\src\mswin</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\mswin\fg_init_mswin.c">
+      <Filter>Source Files\glut\src\mswin</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\mswin\fg_menu_mswin.c">
+      <Filter>Source Files\glut\src\mswin</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\mswin\fg_main_mswin.c">
+      <Filter>Source Files\glut\src\mswin</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\mswin\fg_joystick_mswin.c">
+      <Filter>Source Files\glut\src\mswin</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\mswin\fg_cursor_mswin.c">
+      <Filter>Source Files\glut\src\mswin</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\mswin\fg_display_mswin.c">
+      <Filter>Source Files\glut\src\mswin</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\mswin\fg_gamemode_mswin.c">
+      <Filter>Source Files\glut\src\mswin</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\mswin\fg_structure_mswin.c">
+      <Filter>Source Files\glut\src\mswin</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\mswin\fg_ext_mswin.c">
+      <Filter>Source Files\glut\src\mswin</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\mswin\fg_spaceball_mswin.c">
+      <Filter>Source Files\glut\src\mswin</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\mswin\fg_window_mswin.c">
+      <Filter>Source Files\glut\src\mswin</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\fg_callbacks.c">
+      <Filter>Source Files\glut\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\fg_cursor.c">
+      <Filter>Source Files\glut\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\fg_display.c">
+      <Filter>Source Files\glut\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\fg_ext.c">
+      <Filter>Source Files\glut\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\fg_font.c">
+      <Filter>Source Files\glut\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\fg_font_data.c">
+      <Filter>Source Files\glut\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\fg_gamemode.c">
+      <Filter>Source Files\glut\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\fg_geometry.c">
+      <Filter>Source Files\glut\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\fg_gl2.c">
+      <Filter>Source Files\glut\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\fg_init.c">
+      <Filter>Source Files\glut\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\fg_input_devices.c">
+      <Filter>Source Files\glut\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\fg_joystick.c">
+      <Filter>Source Files\glut\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\fg_main.c">
+      <Filter>Source Files\glut\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\fg_menu.c">
+      <Filter>Source Files\glut\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\fg_misc.c">
+      <Filter>Source Files\glut\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\fg_overlay.c">
+      <Filter>Source Files\glut\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\fg_spaceball.c">
+      <Filter>Source Files\glut\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\fg_state.c">
+      <Filter>Source Files\glut\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\fg_stroke_mono_roman.c">
+      <Filter>Source Files\glut\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\fg_stroke_roman.c">
+      <Filter>Source Files\glut\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\fg_structure.c">
+      <Filter>Source Files\glut\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\fg_teapot.c">
+      <Filter>Source Files\glut\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\fg_videoresize.c">
+      <Filter>Source Files\glut\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\fg_window.c">
+      <Filter>Source Files\glut\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\gles_stubs.c">
+      <Filter>Source Files\glut\src</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_node.cpp">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_panel.cpp">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_radio.cpp">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_rollout.cpp">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_rotation.cpp">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_scrollbar.cpp">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_separator.cpp">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_spinner.cpp">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_statictext.cpp">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_string.cpp">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_translation.cpp">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_tree.cpp">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_textbox.cpp">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_edittext.cpp">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_filebrowser.cpp">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_treepanel.cpp">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_window.cpp">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\quaternion.cpp">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\viewmodel.cpp">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\algebra3.cpp">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\arcball.cpp">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui.cpp">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_add_controls.cpp">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_bitmap_img_data.cpp">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_bitmaps.cpp">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_button.cpp">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_checkbox.cpp">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_column.cpp">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_commandline.cpp">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_control.cpp">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_img_checkbox_0.c">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_img_checkbox_0_dis.c">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_img_checkbox_1.c">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_img_checkbox_1_dis.c">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_img_downarrow.c">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_img_leftarrow.c">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_img_listbox_down.c">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_img_listbox_up.c">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_img_listbox_up_dis.c">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_img_radiobutton_0.c">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_img_radiobutton_0_dis.c">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_img_radiobutton_1.c">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_img_radiobutton_1_dis.c">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_img_rightarrow.c">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_img_spindown_0.c">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_img_spindown_1.c">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_img_spindown_dis.c">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_img_spinup_0.c">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_img_spinup_1.c">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_img_spinup_dis.c">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_img_uparrow.c">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_list.cpp">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_listbox.cpp">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glui\glui_mouse_iaction.cpp">
+      <Filter>Source Files\glui</Filter>
+    </ClCompile>
+    <ClCompile Include="glut\src\util\xparsegeometry_repl.c">
+      <Filter>Source Files\glut\src\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="world\config.h">
+      <Filter>Header Files\world</Filter>
+    </ClInclude>
+    <ClInclude Include="world\GLView.h">
+      <Filter>Header Files\world</Filter>
+    </ClInclude>
+    <ClInclude Include="world\ReadWrite.h">
+      <Filter>Header Files\world</Filter>
+    </ClInclude>
+    <ClInclude Include="world\settings.h">
+      <Filter>Header Files\world</Filter>
+    </ClInclude>
+    <ClInclude Include="world\View.h">
+      <Filter>Header Files\world</Filter>
+    </ClInclude>
+    <ClInclude Include="world\World.h">
+      <Filter>Header Files\world</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\cli.h">
+      <Filter>Header Files\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\helpers.h">
+      <Filter>Header Files\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\MyEnum.hpp">
+      <Filter>Header Files\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\MyVectors.h">
+      <Filter>Header Files\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\MyVectors2.h">
+      <Filter>Header Files\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\seed.h">
+      <Filter>Header Files\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\VectorMLPBox.h">
+      <Filter>Header Files\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\vmath.h">
+      <Filter>Header Files\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="agent\MLPBrain.h">
+      <Filter>Header Files\agent</Filter>
+    </ClInclude>
+    <ClInclude Include="agent\MLPBrain2.h">
+      <Filter>Header Files\agent</Filter>
+    </ClInclude>
+    <ClInclude Include="agent\Agent.h">
+      <Filter>Header Files\agent</Filter>
+    </ClInclude>
+    <ClInclude Include="agent\Agent2.h">
+      <Filter>Header Files\agent</Filter>
+    </ClInclude>
+    <ClInclude Include="agent\AssemblyBrain.h">
+      <Filter>Header Files\agent</Filter>
+    </ClInclude>
+    <ClInclude Include="agent\DWRAONBrain.h">
+      <Filter>Header Files\agent</Filter>
+    </ClInclude>
+    <ClInclude Include="glut\src\x11\fg_window_x11_glx.h">
+      <Filter>Header Files\glut\src\x11</Filter>
+    </ClInclude>
+    <ClInclude Include="glut\src\x11\fg_internal_x11.h">
+      <Filter>Header Files\glut\src\x11</Filter>
+    </ClInclude>
+    <ClInclude Include="glut\src\x11\fg_internal_x11_glx.h">
+      <Filter>Header Files\glut\src\x11</Filter>
+    </ClInclude>
+    <ClInclude Include="glut\src\x11\fg_state_x11_glx.h">
+      <Filter>Header Files\glut\src\x11</Filter>
+    </ClInclude>
+    <ClInclude Include="glut\src\wayland\fg_internal_wl.h">
+      <Filter>Header Files\glut\src\wayland</Filter>
+    </ClInclude>
+    <ClInclude Include="glut\src\util\xparsegeometry_repl.h">
+      <Filter>Header Files\glut\src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="glut\src\mswin\fg_internal_mswin.h">
+      <Filter>Header Files\glut\src\mswin</Filter>
+    </ClInclude>
+    <ClInclude Include="glut\src\egl\fg_internal_egl.h">
+      <Filter>Header Files\glut\src\egl</Filter>
+    </ClInclude>
+    <ClInclude Include="glut\src\egl\fg_init_egl.h">
+      <Filter>Header Files\glut\src\egl</Filter>
+    </ClInclude>
+    <ClInclude Include="glut\src\egl\fg_state_egl.h">
+      <Filter>Header Files\glut\src\egl</Filter>
+    </ClInclude>
+    <ClInclude Include="glut\src\egl\fg_window_egl.h">
+      <Filter>Header Files\glut\src\egl</Filter>
+    </ClInclude>
+    <ClInclude Include="glut\src\egl\fg_structure_egl.h">
+      <Filter>Header Files\glut\src\egl</Filter>
+    </ClInclude>
+    <ClInclude Include="glut\src\blackberry\fg_internal_blackberry.h">
+      <Filter>Header Files\glut\src\blackberry</Filter>
+    </ClInclude>
+    <ClInclude Include="glut\src\android\native_app_glue\android_native_app_glue.h">
+      <Filter>Header Files\glut\src\android\native_app_glue</Filter>
+    </ClInclude>
+    <ClInclude Include="glut\src\android\fg_internal_android.h">
+      <Filter>Header Files\glut\src\android</Filter>
+    </ClInclude>
+    <ClInclude Include="glut\src\android\fg_main_android.h">
+      <Filter>Header Files\glut\src\android</Filter>
+    </ClInclude>
+    <ClInclude Include="glut\src\fg_callback_macros.h">
+      <Filter>Header Files\glut\src</Filter>
+    </ClInclude>
+    <ClInclude Include="glut\src\fg_gl2.h">
+      <Filter>Header Files\glut\src</Filter>
+    </ClInclude>
+    <ClInclude Include="glut\src\fg_init.h">
+      <Filter>Header Files\glut\src</Filter>
+    </ClInclude>
+    <ClInclude Include="glut\src\fg_internal.h">
+      <Filter>Header Files\glut\src</Filter>
+    </ClInclude>
+    <ClInclude Include="glut\src\fg_teapot_data.h">
+      <Filter>Header Files\glut\src</Filter>
+    </ClInclude>
+    <ClInclude Include="glut\src\fg_version.h">
+      <Filter>Header Files\glut\src</Filter>
+    </ClInclude>
+    <ClInclude Include="glut\GL\glut.h">
+      <Filter>Header Files\glut\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="glut\GL\freeglut.h">
+      <Filter>Header Files\glut\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="glut\GL\freeglut_ext.h">
+      <Filter>Header Files\glut\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="glut\GL\freeglut_std.h">
+      <Filter>Header Files\glut\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="glut\GL\freeglut_ucall.h">
+      <Filter>Header Files\glut\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="glui\GL\glui.h">
+      <Filter>Header Files\glui\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="glui\quaternion.h">
+      <Filter>Header Files\glui\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="glui\viewmodel.h">
+      <Filter>Header Files\glui\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="glui\algebra3.h">
+      <Filter>Header Files\glui\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="glui\arcball.h">
+      <Filter>Header Files\glui\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="glui\glui_internal.h">
+      <Filter>Header Files\glui\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="glui\glui_internal_control.h">
+      <Filter>Header Files\glui\GL</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

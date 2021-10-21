@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{6442d036-20b0-4b20-830c-836680a9f009}</ProjectGuid>
+    <RootNamespace>EvolutionBot</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\world;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\misc;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\android\native_app_glue;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\android;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\blackberry;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\egl;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\mswin;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\osx;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\util;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\wayland;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\x11;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\GL;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glui;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glui\GL;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\agent;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\world;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\misc;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\android\native_app_glue;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\android;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\blackberry;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\egl;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\mswin;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\osx;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\util;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\wayland;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\x11;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\GL;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glui;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glui\GL;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\agent;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\GL;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\android\native_app_glue;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\android;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\blackberry;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\egl;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\mswin;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\osx;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\util;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\wayland;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\x11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Opengl32.lib;Glu32.lib;Winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\GL;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\android\native_app_glue;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\android;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\blackberry;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\egl;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\mswin;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\osx;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\util;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\wayland;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\x11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Opengl32.lib;Glu32.lib;Winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="agent\Agent.cpp" />
+    <ClCompile Include="agent\Agent2.cpp" />
+    <ClCompile Include="agent\AssemblyBrain.cpp" />
+    <ClCompile Include="agent\DWRAONBrain.cpp" />
+    <ClCompile Include="agent\MLPBrain.cpp" />
+    <ClCompile Include="agent\MLPBrain2.cpp" />
+    <ClCompile Include="glui\algebra3.cpp" />
+    <ClCompile Include="glui\arcball.cpp" />
+    <ClCompile Include="glui\glui.cpp" />
+    <ClCompile Include="glui\glui_add_controls.cpp" />
+    <ClCompile Include="glui\glui_bitmaps.cpp" />
+    <ClCompile Include="glui\glui_bitmap_img_data.cpp" />
+    <ClCompile Include="glui\glui_button.cpp" />
+    <ClCompile Include="glui\glui_checkbox.cpp" />
+    <ClCompile Include="glui\glui_column.cpp" />
+    <ClCompile Include="glui\glui_commandline.cpp" />
+    <ClCompile Include="glui\glui_control.cpp" />
+    <ClCompile Include="glui\glui_edittext.cpp" />
+    <ClCompile Include="glui\glui_filebrowser.cpp" />
+    <ClCompile Include="glui\glui_img_checkbox_0.c" />
+    <ClCompile Include="glui\glui_img_checkbox_0_dis.c" />
+    <ClCompile Include="glui\glui_img_checkbox_1.c" />
+    <ClCompile Include="glui\glui_img_checkbox_1_dis.c" />
+    <ClCompile Include="glui\glui_img_downarrow.c" />
+    <ClCompile Include="glui\glui_img_leftarrow.c" />
+    <ClCompile Include="glui\glui_img_listbox_down.c" />
+    <ClCompile Include="glui\glui_img_listbox_up.c" />
+    <ClCompile Include="glui\glui_img_listbox_up_dis.c" />
+    <ClCompile Include="glui\glui_img_radiobutton_0.c" />
+    <ClCompile Include="glui\glui_img_radiobutton_0_dis.c" />
+    <ClCompile Include="glui\glui_img_radiobutton_1.c" />
+    <ClCompile Include="glui\glui_img_radiobutton_1_dis.c" />
+    <ClCompile Include="glui\glui_img_rightarrow.c" />
+    <ClCompile Include="glui\glui_img_spindown_0.c" />
+    <ClCompile Include="glui\glui_img_spindown_1.c" />
+    <ClCompile Include="glui\glui_img_spindown_dis.c" />
+    <ClCompile Include="glui\glui_img_spinup_0.c" />
+    <ClCompile Include="glui\glui_img_spinup_1.c" />
+    <ClCompile Include="glui\glui_img_spinup_dis.c" />
+    <ClCompile Include="glui\glui_img_uparrow.c" />
+    <ClCompile Include="glui\glui_list.cpp" />
+    <ClCompile Include="glui\glui_listbox.cpp" />
+    <ClCompile Include="glui\glui_mouse_iaction.cpp" />
+    <ClCompile Include="glui\glui_node.cpp" />
+    <ClCompile Include="glui\glui_panel.cpp" />
+    <ClCompile Include="glui\glui_radio.cpp" />
+    <ClCompile Include="glui\glui_rollout.cpp" />
+    <ClCompile Include="glui\glui_rotation.cpp" />
+    <ClCompile Include="glui\glui_scrollbar.cpp" />
+    <ClCompile Include="glui\glui_separator.cpp" />
+    <ClCompile Include="glui\glui_spinner.cpp" />
+    <ClCompile Include="glui\glui_statictext.cpp" />
+    <ClCompile Include="glui\glui_string.cpp" />
+    <ClCompile Include="glui\glui_textbox.cpp" />
+    <ClCompile Include="glui\glui_translation.cpp" />
+    <ClCompile Include="glui\glui_tree.cpp" />
+    <ClCompile Include="glui\glui_treepanel.cpp" />
+    <ClCompile Include="glui\glui_window.cpp" />
+    <ClCompile Include="glui\quaternion.cpp" />
+    <ClCompile Include="glui\viewmodel.cpp" />
+    <ClCompile Include="glut\src\fg_callbacks.c" />
+    <ClCompile Include="glut\src\fg_cursor.c" />
+    <ClCompile Include="glut\src\fg_display.c" />
+    <ClCompile Include="glut\src\fg_ext.c" />
+    <ClCompile Include="glut\src\fg_font.c" />
+    <ClCompile Include="glut\src\fg_font_data.c" />
+    <ClCompile Include="glut\src\fg_gamemode.c" />
+    <ClCompile Include="glut\src\fg_geometry.c" />
+    <ClCompile Include="glut\src\fg_gl2.c" />
+    <ClCompile Include="glut\src\fg_init.c" />
+    <ClCompile Include="glut\src\fg_input_devices.c" />
+    <ClCompile Include="glut\src\fg_joystick.c" />
+    <ClCompile Include="glut\src\fg_main.c" />
+    <ClCompile Include="glut\src\fg_menu.c" />
+    <ClCompile Include="glut\src\fg_misc.c" />
+    <ClCompile Include="glut\src\fg_overlay.c" />
+    <ClCompile Include="glut\src\fg_spaceball.c" />
+    <ClCompile Include="glut\src\fg_state.c" />
+    <ClCompile Include="glut\src\fg_stroke_mono_roman.c" />
+    <ClCompile Include="glut\src\fg_stroke_roman.c" />
+    <ClCompile Include="glut\src\fg_structure.c" />
+    <ClCompile Include="glut\src\fg_teapot.c" />
+    <ClCompile Include="glut\src\fg_videoresize.c" />
+    <ClCompile Include="glut\src\fg_window.c" />
+    <ClCompile Include="glut\src\gles_stubs.c" />
+    <ClCompile Include="glut\src\mswin\fg_cursor_mswin.c" />
+    <ClCompile Include="glut\src\mswin\fg_display_mswin.c" />
+    <ClCompile Include="glut\src\mswin\fg_ext_mswin.c" />
+    <ClCompile Include="glut\src\mswin\fg_gamemode_mswin.c" />
+    <ClCompile Include="glut\src\mswin\fg_init_mswin.c" />
+    <ClCompile Include="glut\src\mswin\fg_input_devices_mswin.c" />
+    <ClCompile Include="glut\src\mswin\fg_joystick_mswin.c" />
+    <ClCompile Include="glut\src\mswin\fg_main_mswin.c" />
+    <ClCompile Include="glut\src\mswin\fg_menu_mswin.c" />
+    <ClCompile Include="glut\src\mswin\fg_spaceball_mswin.c" />
+    <ClCompile Include="glut\src\mswin\fg_state_mswin.c" />
+    <ClCompile Include="glut\src\mswin\fg_structure_mswin.c" />
+    <ClCompile Include="glut\src\mswin\fg_window_mswin.c" />
+    <ClCompile Include="glut\src\util\xparsegeometry_repl.c" />
+    <ClCompile Include="misc\cli.cpp" />
+    <ClCompile Include="misc\MyVectors.cpp" />
+    <ClCompile Include="misc\MyVectors2.cpp" />
+    <ClCompile Include="misc\seed.cpp" />
+    <ClCompile Include="misc\VectorMLPBox.cpp" />
+    <ClCompile Include="misc\vmath.cpp" />
+    <ClCompile Include="world\GLView.cpp" />
+    <ClCompile Include="world\main.cpp" />
+    <ClCompile Include="world\ReadWrite.cpp" />
+    <ClCompile Include="world\View.cpp" />
+    <ClCompile Include="world\World.cpp" />
+    <ClCompile Include="world\World2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="agent\Agent.h" />
+    <ClInclude Include="agent\Agent2.h" />
+    <ClInclude Include="agent\AssemblyBrain.h" />
+    <ClInclude Include="agent\DWRAONBrain.h" />
+    <ClInclude Include="agent\MLPBrain.h" />
+    <ClInclude Include="agent\MLPBrain2.h" />
+    <ClInclude Include="glui\algebra3.h" />
+    <ClInclude Include="glui\arcball.h" />
+    <ClInclude Include="glui\glui_internal.h" />
+    <ClInclude Include="glui\glui_internal_control.h" />
+    <ClInclude Include="glui\GL\glui.h" />
+    <ClInclude Include="glui\quaternion.h" />
+    <ClInclude Include="glui\viewmodel.h" />
+    <ClInclude Include="glut\GL\freeglut.h" />
+    <ClInclude Include="glut\GL\freeglut_ext.h" />
+    <ClInclude Include="glut\GL\freeglut_std.h" />
+    <ClInclude Include="glut\GL\freeglut_ucall.h" />
+    <ClInclude Include="glut\GL\glut.h" />
+    <ClInclude Include="glut\src\android\fg_internal_android.h" />
+    <ClInclude Include="glut\src\android\fg_main_android.h" />
+    <ClInclude Include="glut\src\android\native_app_glue\android_native_app_glue.h" />
+    <ClInclude Include="glut\src\blackberry\fg_internal_blackberry.h" />
+    <ClInclude Include="glut\src\egl\fg_init_egl.h" />
+    <ClInclude Include="glut\src\egl\fg_internal_egl.h" />
+    <ClInclude Include="glut\src\egl\fg_state_egl.h" />
+    <ClInclude Include="glut\src\egl\fg_structure_egl.h" />
+    <ClInclude Include="glut\src\egl\fg_window_egl.h" />
+    <ClInclude Include="glut\src\fg_callback_macros.h" />
+    <ClInclude Include="glut\src\fg_gl2.h" />
+    <ClInclude Include="glut\src\fg_init.h" />
+    <ClInclude Include="glut\src\fg_internal.h" />
+    <ClInclude Include="glut\src\fg_teapot_data.h" />
+    <ClInclude Include="glut\src\fg_version.h" />
+    <ClInclude Include="glut\src\mswin\fg_internal_mswin.h" />
+    <ClInclude Include="glut\src\util\xparsegeometry_repl.h" />
+    <ClInclude Include="glut\src\wayland\fg_internal_wl.h" />
+    <ClInclude Include="glut\src\x11\fg_internal_x11.h" />
+    <ClInclude Include="glut\src\x11\fg_internal_x11_glx.h" />
+    <ClInclude Include="glut\src\x11\fg_state_x11_glx.h" />
+    <ClInclude Include="glut\src\x11\fg_window_x11_glx.h" />
+    <ClInclude Include="misc\cli.h" />
+    <ClInclude Include="misc\helpers.h" />
+    <ClInclude Include="misc\MyEnum.hpp" />
+    <ClInclude Include="misc\MyVectors.h" />
+    <ClInclude Include="misc\MyVectors2.h" />
+    <ClInclude Include="misc\seed.h" />
+    <ClInclude Include="misc\VectorMLPBox.h" />
+    <ClInclude Include="misc\vmath.h" />
+    <ClInclude Include="world\config.h" />
+    <ClInclude Include="world\GLView.h" />
+    <ClInclude Include="world\ReadWrite.h" />
+    <ClInclude Include="world\settings.h" />
+    <ClInclude Include="world\View.h" />
+    <ClInclude Include="world\World.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
