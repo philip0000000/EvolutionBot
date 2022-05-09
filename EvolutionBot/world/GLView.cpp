@@ -573,7 +573,10 @@ void GLView::changeSize(int w, int h)
 	// Reset the coordinate system before modifying
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
-	glOrtho(0,conf::WWIDTH,conf::WHEIGHT,0,0,1);
+	glOrtho(0,w,h,0,0,1);
+	//glOrtho(0,conf::WWIDTH,conf::WHEIGHT,0,0,1);
+
+	glViewport(0, 0, w, h); // make the window viewport allways the same size as the window size
 }
 void GLView::processNormalKeys(unsigned char key, int x, int y)
 {

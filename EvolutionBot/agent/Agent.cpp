@@ -1,5 +1,5 @@
 #include "config.h"
-#ifndef HAVE_MY_VECTORS
+#ifndef MY_VECTORS
 
 
 #include "Agent.h"
@@ -218,4 +218,4 @@ Agent Agent::reproduce(Agent that, float MR, float MR2)
 }
 
 
-#endif /* HAVE_MY_VECTORS */
+#endif /* MY_VECTORS */

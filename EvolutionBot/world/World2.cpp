@@ -1,5 +1,5 @@
 #include "config.h"
-#ifdef HAVE_MY_VECTORS
+#ifdef MY_VECTORS
 
 
 #include "World.h"
@@ -1438,4 +1438,4 @@ bool World::getIsDebug() const
 #endif
 
 
-#endif /* HAVE_MY_VECTORS */
+#endif /* MY_VECTORS */

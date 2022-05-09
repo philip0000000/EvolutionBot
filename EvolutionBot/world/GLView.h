@@ -41,7 +41,7 @@ public:
 	virtual void drawData();
 	
 	void setWorld(World* w);
-	
+
 	//GLUT functions
 	void renderScene();
 	void handleIdle();

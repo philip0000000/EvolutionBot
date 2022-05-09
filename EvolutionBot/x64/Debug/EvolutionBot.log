@@ -1,0 +1,375 @@
+﻿  Agent.cpp
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(25,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(27,30): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(28,32): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(40,31): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(41,32): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(45,27): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(48,29): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(51,31): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(53,31): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(60,33): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(61,33): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(62,29): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(63,32): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(67,38): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(68,44): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(69,39): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(70,41): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(71,35): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(73,37): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(76,31): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(77,35): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(78,31): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(81,33): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(89,33): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(90,33): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(91,34): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(101,30): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(102,33): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(103,31): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(113,35): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(114,34): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(115,33): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\misc\helpers.h(28,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\agent\Agent.cpp(23,27): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\agent\Agent.cpp(24,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\agent\Agent.cpp(46,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\agent\Agent.cpp(53,45): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\agent\Agent.cpp(57,28): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\agent\Agent.cpp(58,28): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\agent\Agent.cpp(61,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\agent\Agent.cpp(64,17): warning C4305: '=': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\agent\Agent.cpp(65,18): warning C4305: '=': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\agent\Agent.cpp(77,32): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\agent\Agent.cpp(85,32): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\agent\Agent.cpp(130,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\agent\Agent.cpp(167,43): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\agent\Agent.cpp(170,47): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\agent\Agent.cpp(171,47): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\agent\Agent.cpp(172,47): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\agent\Agent.cpp(174,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\agent\Agent.cpp(177,37): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\agent\Agent.cpp(178,37): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\agent\Agent.cpp(181,40): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\agent\Agent.cpp(183,40): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\agent\Agent.cpp(186,40): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\agent\Agent.cpp(187,40): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\agent\Agent.cpp(188,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\agent\Agent.cpp(189,48): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\agent\Agent.cpp(190,47): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\agent\Agent.cpp(191,40): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\agent\Agent.cpp(193,59): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\agent\Agent.cpp(194,42): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\agent\Agent.cpp(197,43): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\agent\Agent.cpp(199,48): warning C4305: '=': truncation from 'double' to '_Ty'
+          with
+          [
+              _Ty=float
+          ]
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\agent\Agent.cpp(203,41): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\agent\Agent.cpp(205,44): warning C4305: '=': truncation from 'double' to '_Ty'
+          with
+          [
+              _Ty=float
+          ]
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\agent\Agent.cpp(207,43): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\agent\Agent.cpp(209,48): warning C4305: '=': truncation from 'double' to '_Ty'
+          with
+          [
+              _Ty=float
+          ]
+  GLView.cpp
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(25,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(27,30): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(28,32): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(40,31): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(41,32): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(45,27): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(48,29): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(51,31): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(53,31): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(60,33): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(61,33): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(62,29): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(63,32): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(67,38): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(68,44): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(69,39): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(70,41): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(71,35): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(73,37): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(76,31): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(77,35): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(78,31): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(81,33): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(89,33): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(90,33): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(91,34): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(101,30): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(102,33): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(103,31): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(113,35): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(114,34): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(115,33): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\misc\helpers.h(28,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\glui\GL\glui.h(868,47): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\glui\GL\glui.h(868,31): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\glui\GL\glui.h(932,24): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(66,8): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(86,16): warning C4305: '=': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(105,32): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(108,32): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(111,42): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(114,37): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(117,46): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(118,51): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(124,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(124,15): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(125,38): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(125,25): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(126,48): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(126,25): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(127,37): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(127,15): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(135,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(141,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(215,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(217,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(249,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(285,40): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(286,43): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(302,9): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(304,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(344,23): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(353,24): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(383,64): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(383,35): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(383,69): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(397,17): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(396,29): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(407,30): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(407,21): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(405,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(404,29): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(412,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(411,29): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(422,54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(422,32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(422,18): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(420,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(419,29): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(439,21): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(443,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(444,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(450,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(451,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(457,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(458,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(460,23): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(464,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(465,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(471,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(472,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(474,19): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(475,19): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(478,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(557,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(558,21): warning C4244: '=': conversion from 'float' to 'clock_t', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(632,43): warning C4305: '=': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(658,18): warning C4305: '=': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(810,42): warning C4305: '=': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(817,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(818,38): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(822,43): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(823,45): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(827,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(828,38): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(832,43): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\GLView.cpp(833,45): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  World.cpp
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(25,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(27,30): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(28,32): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(40,31): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(41,32): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(45,27): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(48,29): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(51,31): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(53,31): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(60,33): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(61,33): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(62,29): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(63,32): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(67,38): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(68,44): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(69,39): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(70,41): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(71,35): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(73,37): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(76,31): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(77,35): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(78,31): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(81,33): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(89,33): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(90,33): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(91,34): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(101,30): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(102,33): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(103,31): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(113,35): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(114,34): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(115,33): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\misc\helpers.h(28,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(190,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(212,22): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(233,28): warning C4305: '-=': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(252,47): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(39,8): warning C4101: 'tinit': unreferenced local variable
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(40,8): warning C4101: 'tfin': unreferenced local variable
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(301,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(303,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(340,12): warning C4244: '=': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(341,12): warning C4244: '=': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(342,12): warning C4244: '=': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(343,12): warning C4244: '=': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(361,33): warning C4305: '+=': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(362,32): warning C4305: '-=': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(365,42): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(373,44): warning C4244: '+=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(374,44): warning C4244: '+=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(375,44): warning C4244: '+=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(376,44): warning C4244: '+=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(377,44): warning C4244: '+=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(390,45): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(396,42): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(440,32): warning C4305: '+=': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(441,31): warning C4305: '-=': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(444,41): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(469,44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(483,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(518,15): warning C4244: '=': conversion from 'int' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(552,35): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(553,35): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(554,35): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(568,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(585,21): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(606,38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(614,38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(691,90): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(886,37): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(909,29): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(910,29): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(911,29): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(920,29): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(921,29): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(922,29): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(954,34): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(958,34): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(959,34): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(1062,31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(1066,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(1076,11): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(1076,37): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(1077,11): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(1078,11): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(1097,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(1100,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(1103,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(1106,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(1165,22): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(1175,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(1191,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\World.cpp(1205,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  main.cpp
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(25,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(27,30): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(28,32): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(40,31): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(41,32): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(45,27): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(48,29): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(51,31): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(53,31): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(60,33): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(61,33): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(62,29): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(63,32): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(67,38): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(68,44): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(69,39): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(70,41): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(71,35): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(73,37): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(76,31): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(77,35): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(78,31): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(81,33): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(89,33): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(90,33): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(91,34): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(101,30): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(102,33): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(103,31): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(113,35): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(114,34): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\settings.h(115,33): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\misc\helpers.h(28,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\glui\GL\glui.h(868,47): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\glui\GL\glui.h(868,31): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\glui\GL\glui.h(932,24): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\MyPrograms\github\EvolutionBot\EvolutionBot\world\main.cpp(27,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Generating Code...
+  EvolutionBot.vcxproj -> C:\MyPrograms\github\EvolutionBot\x64\Debug\EvolutionBot.exe

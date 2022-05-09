@@ -1,5 +1,5 @@
 #include "config.h"
-#ifdef HAVE_MY_VECTORS
+#ifdef MY_VECTORS
 
 
 #include "MLPBrain2.h"
@@ -299,4 +299,4 @@ MLPBrain MLPBrain::crossover(const MLPBrain& other)
 }
 
 
-#endif /* HAVE_MY_VECTORS */
+#endif /* MY_VECTORS */

@@ -1,5 +1,5 @@
 #include "config.h"
-#ifdef HAVE_MY_VECTORS
+#ifdef MY_VECTORS
 
 
 #ifndef AGENT2_H
@@ -118,4 +118,4 @@ public:
 #endif /* AGENT2_H */
 
 
-#endif /* HAVE_MY_VECTORS */
+#endif /* MY_VECTORS */

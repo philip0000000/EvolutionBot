@@ -24,9 +24,10 @@ int main(int argc, char **argv)
 //	int window;
 //	GLUI *menu;
 	
-	if (conf::WIDTH%conf::CZ != 0 || conf::HEIGHT%conf::CZ != 0)
+#if conf::WIDTH%conf::CZ != 0 || conf::HEIGHT%conf::CZ != 0
 		printf("CAREFUL! The cell size variable conf::CZ should divide evenly into both conf::WIDTH and conf::HEIGHT! It doesn't right now!\n");
-		
+#endif
+
 	World* world = new World();
 	GLVIEW->setWorld(world);
 

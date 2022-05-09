@@ -1,5 +1,5 @@
 #include "config.h"
-#ifdef HAVE_MY_VECTORS
+#ifdef MY_VECTORS
 
 
 #include "Agent2.h"
@@ -263,4 +263,4 @@ void Agent::setStatusAgentAlive(bool status)
 }
 
 
-#endif /* HAVE_MY_VECTORS */
+#endif /* MY_VECTORS */
