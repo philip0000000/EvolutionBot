@@ -36,14 +36,12 @@ Agent::Agent()
 	clockf1 = randf(5, 100);
 	clockf2 = randf(5, 100);
 	boost = false;
-	jump = 0;
 	indicator = 0;
 	gencount = 0;
 	selectflag = 0;
 	ir = 0;
 	ig = 0;
 	ib = 0;
-	temperature_preference = cap(randn(2.0 * abs(pos.y / conf::HEIGHT - 0.5), 0.05));
 	lungs = randf(0, 1);
 	hybrid = false;
 	stomach[0] = randf(0, 1);
@@ -155,7 +153,6 @@ Agent Agent::reproduce(Agent that, float MR, float MR2)
 	a2.eye_see_cell_mod = randf(0,1)<0.5 ? this->eye_see_cell_mod : that.eye_see_cell_mod;
 	a2.blood_mod = randf(0,1)<0.5 ? this->blood_mod : that.blood_mod;
 
-	a2.temperature_preference= randf(0,1)<0.5 ? this->temperature_preference : that.temperature_preference;
 	a2.lungs= randf(0,1)<0.5 ? this->lungs : that.lungs;
 	
 	a2.eardir = randf(0,1)<0.5 ? this->eardir : that.eardir;
@@ -190,7 +187,6 @@ Agent Agent::reproduce(Agent that, float MR, float MR2)
 	if (randf(0,1)<MR) a2.eye_see_cell_mod= randn(a2.eye_see_cell_mod, MR2);
 	if (randf(0,1)<MR) a2.blood_mod= randn(a2.blood_mod, MR2);
 
-	if (randf(0,1)<MR*5) a2.temperature_preference= cap(randn(a2.temperature_preference, MR2*3));
 	if (randf(0,1)<MR*5) a2.lungs= cap(randn(a2.lungs, MR2*3));
 
 	for(int i=0;i<NUMEARS;i++){

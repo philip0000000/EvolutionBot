@@ -136,11 +136,6 @@ void GLView::drawAgent(const Agent& agent)
 
 	if (live_agentsvis != 0)
 	{
-		//calculate temperature at the agents spot. (based on distance from horizontal equator) Orange is bad, white is good
-		//done here because also used in coloring bots with agent visual set to temp discomfort
-		float dd = 2.0*abs(agent.pos.y / conf::HEIGHT - 0.5);
-		float discomfort = cap(sqrt(abs(dd - agent.temperature_preference)));
-
 		//handle selected agent
 		if (agent.selectflag>0)
 		{
@@ -265,9 +260,6 @@ void GLView::drawAgent(const Agent& agent)
 				glColor3f(cap(agent.stomach[1] + agent.stomach[2]), cap(agent.stomach[0] + agent.stomach[2]), 0);
 				break;
 			case 3:
-				glColor3f(1, (2 - discomfort) / 2, (1 - discomfort));
-				break;
-			case 4:
 				glColor3f(agent.soundmul, agent.soundmul, agent.soundmul);
 				break;
 			default:
@@ -281,21 +273,17 @@ void GLView::drawAgent(const Agent& agent)
 		glColor3f(0, 0, 0);
 		switch (live_agentsvis)
 		{
-		case 1:
-			if (agent.boost) glColor3f(0.8, 0, 0); //draw boost as red outline
-			if (agent.jump>0) glColor3f(0.8, 0.8, 0); //draw jumping as yellow outline. overrides boost
-			break;
-		case 2:
-			glColor3f(cap(agent.stomach[1] + agent.stomach[2]), cap(agent.stomach[0] + agent.stomach[2]), 0);
-			break;
-		case 3:
-			glColor3f(1, (2 - discomfort) / 2, (1 - discomfort));
-			break;
-		case 4:
-			glColor3f(agent.soundmul, agent.soundmul, agent.soundmul);
-			break;
-		default:
-			break;
+			case 1:
+				if (agent.boost) glColor3f(0.8, 0, 0); //draw boost as red outline
+				break;
+			case 2:
+				glColor3f(cap(agent.stomach[1] + agent.stomach[2]), cap(agent.stomach[0] + agent.stomach[2]), 0);
+				break;
+			case 3:
+				glColor3f(agent.soundmul, agent.soundmul, agent.soundmul);
+				break;
+			default:
+				break;
 		}
 		for (int k = 0; k<17; k++)
 		{
@@ -371,20 +359,12 @@ void GLView::drawAgent(const Agent& agent)
 			glVertex3f(agent.pos.x + xo + 12, agent.pos.y + yo + 34, 0);
 			glVertex3f(agent.pos.x + xo + 6, agent.pos.y + yo + 34, 0);
 
-			//temp discomfort indicator
-			if (discomfort<0.08) discomfort = 0;
-			glColor3f(1, (2 - discomfort) / 2, (1 - discomfort));
+			//land/water lungs requirement indicator
+			glColor3f(0.2, 0.4*agent.lungs + 0.3, 0.6*(1 - agent.lungs) + 0.2);
 			glVertex3f(agent.pos.x + xo + 6, agent.pos.y + yo + 36, 0);
 			glVertex3f(agent.pos.x + xo + 12, agent.pos.y + yo + 36, 0);
 			glVertex3f(agent.pos.x + xo + 12, agent.pos.y + yo + 46, 0);
 			glVertex3f(agent.pos.x + xo + 6, agent.pos.y + yo + 46, 0);
-
-			//land/water lungs requirement indicator
-			glColor3f(0.2, 0.4*agent.lungs + 0.3, 0.6*(1 - agent.lungs) + 0.2);
-			glVertex3f(agent.pos.x + xo + 14, agent.pos.y + yo, 0);
-			glVertex3f(agent.pos.x + xo + 20, agent.pos.y + yo, 0);
-			glVertex3f(agent.pos.x + xo + 20, agent.pos.y + yo + 10, 0);
-			glVertex3f(agent.pos.x + xo + 14, agent.pos.y + yo + 10, 0);
 		}
 		glEnd();
 
@@ -950,7 +930,6 @@ void GLView::gluiCreateMenu()
 	new GLUI_RadioButton(group_agents, "off");
 	new GLUI_RadioButton(group_agents, "RGB");
 	new GLUI_RadioButton(group_agents, "Stomach");
-	new GLUI_RadioButton(group_agents, "Discomfort");
 	new GLUI_RadioButton(group_agents, "Volume");
 
 	GLUI_Panel *panel_xyl = new GLUI_Panel(Menu, "Selection");

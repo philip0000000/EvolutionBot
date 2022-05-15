@@ -181,16 +181,11 @@ void World::update()
 
 		baseloss += agents[i].age/conf::MAXAGE*conf::HEALTHLOSS_AGING; //getting older reduces health.
 
-		if (agents[i].boost) { //if boosting, init baseloss + age loss is multiplied
+		// if boosting, init baseloss + age loss is multiplied
+		if (agents[i].boost)
+		{
 			baseloss *= conf::HEALTHLOSS_BOOSTMULT;
 		}
-
-		//process temperature preferences
-		//calculate temperature at the agents spot. (based on distance from horizontal equator)
-		float dd= 2.0*abs(agents[i].pos.y/conf::HEIGHT - 0.5);
-		float discomfort= sqrt(abs(dd-agents[i].temperature_preference));
-		if (discomfort<0.08) discomfort=0;
-		baseloss += conf::TEMPERATURE_DISCOMFORT*discomfort; //add to baseloss
 
 		//brain activity reduces health
 		baseloss += conf::HEALTHLOSS_BRAINUSE*agents[i].brainActivity;
@@ -301,7 +296,7 @@ void World::setInputs()
 	float PI8=M_PI/8/2; //pi/8/2
 	float PI38= 3*PI8; //3pi/8/2
 	float PI4= M_PI/4;
-   
+
 #ifdef HAVE_OPENMP
 	#pragma omp parallel for
 #endif
@@ -536,23 +531,22 @@ void World::processOutputs()
 	{
 		Agent* a= &agents[i];
 
-		if (a->jump<=0) //if not jumping, then change wheel speeds. otherwise, we want to keep wheel speeds constant
+		// wheel speeds
+		if (pcontrol && a->selectflag)
 		{
-			if (pcontrol && a->selectflag)
-			{
-				a->w1= pright;
-				a->w2= pleft;
-			}
-			else
-			{
-				a->w1= a->out[0]; //-(2*a->out[0]-1);
-				a->w2= a->out[1]; //-(2*a->out[1]-1);
-			}
+			a->w1= pright;
+			a->w2= pleft;
 		}
+		else
+		{
+			a->w1 = a->out[0]; //-(2*a->out[0]-1);
+			a->w2 = a->out[1]; //-(2*a->out[1]-1);
+		}
+
 		a->red += 0.2*(a->out[2]-a->red);
 		a->gre += 0.2*(a->out[3]-a->gre);
 		a->blu += 0.2*(a->out[4]-a->blu);
-		if (a->jump<=0) a->boost= a->out[6]>0.5; //if jump height is zero, boost can change
+		a->boost = a->out[6]>0.5; // change boost
 		a->soundmul= a->out[7];
 		a->give= a->out[8];
 
@@ -563,10 +557,6 @@ void World::processOutputs()
 			a->health-= conf::HEALTHLOSS_SPIKE_EXT;
 		}
 		else if (a->spikeLength>g) a->spikeLength= g; //its easy to retract spike, just hard to put it up
-
-		//jump gets set to 2*(out[11] - 0.5) if itself is zero (the bot is on the ground) and if out[11] is greater than 0.5
-		float height= (a->out[11] - 0.5);
-		if (a->jump==0 && height>0) a->jump= height*2;
 	}
 
 	//move bots
@@ -576,10 +566,6 @@ void World::processOutputs()
 	for (int i=0;i<agents.size();i++)
 	{
 		Agent* a = &agents[i];
-
-		//IDK where else to put this, but this looks like as good a place as any
-		a->jump -= conf::GRAVITYACCEL;
-		if(a->jump<-1) a->jump= 0; //-1 because we will be nice and give a "recharge" time between jumps
 
 		Vector2f v(a->radius/2, 0);
 		v.rotate(a->angle + M_PI/2);
@@ -599,18 +585,12 @@ void World::processOutputs()
 		Vector2f vv= w2p- a->pos;
 		vv.rotate(-BW1);
 		a->pos= w2p-vv;
-		if (a->jump<=0)
-		{
-			a->angle -= BW1;
-		}
+		a->angle -= BW1;
 		if (a->angle<-M_PI) a->angle= M_PI - (-M_PI-a->angle);
 		vv = a->pos - w1p;
 		vv.rotate(BW2);
 		a->pos = w1p + vv;
-		if (a->jump<=0)
-		{
-			a->angle += BW2;
-		}
+		a->angle += BW2;
 		if (a->angle>M_PI) a->angle= -M_PI + (a->angle-M_PI);
 
 		//wrap around the map
@@ -631,59 +611,56 @@ void World::processOutputs()
 		int scx = (int) a->pos.x/conf::CZ;
 		int scy = (int) a->pos.y/conf::CZ;
 
-		if (a->jump<=0) //no interaction with these cells if jumping
+		//plant food: layer 0
+		float food = cells[0][scx][scy];
+		float plantintake = 0;
+		if (food>0 && a->health<2)
 		{
-			//plant food: layer 0
-			float food = cells[0][scx][scy];
-			float plantintake = 0;
-			if (food>0 && a->health<2)
-			{
-				//agent eats the food
-				float speedmul = 1-max(abs(a->w1), abs(a->w2));
-				plantintake = min(food, conf::FOODINTAKE)*a->stomach[0]*(1-a->stomach[1])*(1-a->stomach[2])*speedmul;
-				if (a->health>=conf::MINMOMHEALTH) a->repcounter -= a->metabolism*plantintake;
-				a->health += plantintake;
-				cells[0][scx][scy] -= min(food,conf::FOODWASTE*plantintake/conf::FOODINTAKE);
-			}
+			//agent eats the food
+			float speedmul = 1-max(abs(a->w1), abs(a->w2));
+			plantintake = min(food, conf::FOODINTAKE)*a->stomach[0]*(1-a->stomach[1])*(1-a->stomach[2])*speedmul;
+			if (a->health>=conf::MINMOMHEALTH) a->repcounter -= a->metabolism*plantintake;
+			a->health += plantintake;
+			cells[0][scx][scy] -= min(food,conf::FOODWASTE*plantintake/conf::FOODINTAKE);
+		}
 
-			//meat food: layer 1
-			float meat = cells[1][scx][scy];
-			float meatintake= 0;
-			if (meat>0 && a->health<2)
-			{
-				//agent eats meat
-				float speedmul = 1-max(abs(a->w1), abs(a->w2));
-				meatintake= min(meat,conf::MEATINTAKE)*a->stomach[1]*(1-a->stomach[0])*(1-a->stomach[2])*speedmul;
-				if (a->health>=conf::MINMOMHEALTH) a->repcounter -= a->metabolism*meatintake;
-				a->health += meatintake;
-				cells[1][scx][scy] -= min(meat,conf::MEATWASTE*meatintake/conf::MEATINTAKE);
-			}
+		//meat food: layer 1
+		float meat = cells[1][scx][scy];
+		float meatintake= 0;
+		if (meat>0 && a->health<2)
+		{
+			//agent eats meat
+			float speedmul = 1-max(abs(a->w1), abs(a->w2));
+			meatintake= min(meat,conf::MEATINTAKE)*a->stomach[1]*(1-a->stomach[0])*(1-a->stomach[2])*speedmul;
+			if (a->health>=conf::MINMOMHEALTH) a->repcounter -= a->metabolism*meatintake;
+			a->health += meatintake;
+			cells[1][scx][scy] -= min(meat,conf::MEATWASTE*meatintake/conf::MEATINTAKE);
+		}
 
-			//hazards: layer 2
-			float hazard= cells[2][scx][scy];
-			if (hazard>0)
-			{
-				a->health -= conf::HAZARDDAMAGE*hazard;
-			}
-			//agents fill up hazard cells only up to 9/10, because any greater can be reset to zero
-			if (modcounter%5==0)
-			{
-				if((hazard + conf::HAZARDDEPOSIT)<=conf::HAZARDMAX*9/10) hazard += min(conf::HAZARDDEPOSIT,conf::HAZARDMAX*9/10 - hazard);
-				cells[2][scx][scy] = capCell(hazard,conf::HAZARDMAX);
-			}
+		//hazards: layer 2
+		float hazard= cells[2][scx][scy];
+		if (hazard>0)
+		{
+			a->health -= conf::HAZARDDAMAGE*hazard;
+		}
+		//agents fill up hazard cells only up to 9/10, because any greater can be reset to zero
+		if (modcounter%5==0)
+		{
+			if((hazard + conf::HAZARDDEPOSIT)<=conf::HAZARDMAX*9/10) hazard += min(conf::HAZARDDEPOSIT,conf::HAZARDMAX*9/10 - hazard);
+			cells[2][scx][scy] = capCell(hazard,conf::HAZARDMAX);
+		}
 
-			//Fruit food: layer 3
-			float fruit= cells[3][scx][scy];
-			float fruitintake= 0;
-			if (fruit>0 && a->health<2)
-			{
-				//agent eats meat
-				float speedmul = 1-max(abs(a->w1), abs(a->w2));
-				fruitintake = min(fruit,conf::FRUITINTAKE)*a->stomach[2]*(1-a->stomach[0])*(1-a->stomach[1])*speedmul;
-				if (a->health>=conf::MINMOMHEALTH) a->repcounter -= a->metabolism*fruitintake;
-				a->health += fruitintake;
-				cells[3][scx][scy] -= min(fruit,conf::FRUITWASTE*fruitintake/conf::FRUITINTAKE);
-			}
+		//Fruit food: layer 3
+		float fruit= cells[3][scx][scy];
+		float fruitintake= 0;
+		if (fruit>0 && a->health<2)
+		{
+			//agent eats meat
+			float speedmul = 1-max(abs(a->w1), abs(a->w2));
+			fruitintake = min(fruit,conf::FRUITINTAKE)*a->stomach[2]*(1-a->stomach[0])*(1-a->stomach[1])*speedmul;
+			if (a->health>=conf::MINMOMHEALTH) a->repcounter -= a->metabolism*fruitintake;
+			a->health += fruitintake;
+			cells[3][scx][scy] -= min(fruit,conf::FRUITWASTE*fruitintake/conf::FRUITINTAKE);
 		}
 
 		//land/water: layer 4
@@ -736,7 +713,7 @@ void World::processOutputs()
 				
 				float d = (a->pos-a2->pos).length();
 				float sumrad = a->radius + a2->radius;
-				if (d<sumrad && a->jump<=0 && a2->jump<=0)
+				if (d<sumrad)
 				{
 					//if inside each others radii and neither are jumping, fix physics
 					float ov = (sumrad-d);
@@ -769,8 +746,9 @@ void World::processOutputs()
 					}
 				}
 
-				//low speed doesn't count, nor does a small spike (duh). If the target is jumping in midair, can't attack either
-				if(a->spikeLength*conf::SPIKELENGTH<a->radius || a->w1<0.2 || a->w2<0.2 || a2->jump>0) continue;
+				//low speed doesn't count, nor does a small spike (duh). can't attack
+				if(a->spikeLength*conf::SPIKELENGTH<a->radius || a->w1<0.2 || a->w2<0.2) continue;
+				if(a->spikeLength*conf::SPIKELENGTH<a->radius || a->w1<0.2 || a->w2<0.2) continue;
 				else if(d<=sumrad + conf::SPIKELENGTH*a->spikeLength)
 				{
 					//these two are in collision and agent i has extended spike and is going decent fast!

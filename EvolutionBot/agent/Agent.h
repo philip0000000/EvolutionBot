@@ -39,7 +39,6 @@ public:
     float w1; //wheel speeds
     float w2;
     bool boost; //is this agent boosting
-	float jump; //what "height" this bot is at after jumping //<------------------- REMOVE THIS!!!
 
 	float repcounter; //when repcounter gets to 0, this bot reproduces
 	float metabolism; //rate modifier for food to repcounter conversion
@@ -66,10 +65,6 @@ public:
 
     // Agent genetical physical attributes
     float radius; //radius of bot
-
-
-    float temperature_preference; //what temperature does this agent like? [0 to 1] //<------------------- REMOVE THIS!!!
-
 
     float lungs; //what type of environment does this agent need? [0 for water, 1 for land]
     float MUTRATE1; //how often do mutations occur?

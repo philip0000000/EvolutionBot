@@ -3,7 +3,7 @@
 
 
 #define INPUTSIZE 23
-#define OUTPUTSIZE 12
+#define OUTPUTSIZE 11
 #define NUMEYES 4
 #define NUMEARS 2
 #define BRAINSIZE 100
@@ -11,7 +11,7 @@
 #define LAYERS 5
 
 
-#define START_PROGRAM_IN_PAUSED_MODE TRUE
+#define START_PROGRAM_IN_PAUSED_MODE FALSE
 
 
 namespace conf
@@ -38,7 +38,6 @@ namespace conf
 
 	const int CONTINENTS= 6; //number of continents generated on the land layer
 	const float OCEANPERCENT= 0.8; //decimal percent of land layer which will be ocean
-	const float GRAVITYACCEL= 0.01; //how fast a bot will "fall" after jumping [0= weightless (I don't recommend), 0.5 or more= super-gravity]
 	const float SPIKEMULT= 2; //strength of spike injury
 
 	//BOTS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ BOTS

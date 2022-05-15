@@ -119,6 +119,8 @@
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\GL;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\android\native_app_glue;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\android;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\blackberry;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\egl;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\mswin;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\osx;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\util;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\wayland;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\x11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -135,6 +137,7 @@
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\GL;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\android\native_app_glue;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\android;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\blackberry;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\egl;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\mswin;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\osx;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\util;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\wayland;C:\MyCode\msvc\c++\EvolutionBot\EvolutionBot\glut\src\x11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OpenMPSupport>true</OpenMPSupport>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

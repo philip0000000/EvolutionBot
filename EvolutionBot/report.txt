@@ -1,0 +1,9 @@
+Epoch: 0 #Agents: 30 #Herbi: 17 #Frugi: 4 #Carni: 9 #0.75Plants: 3506 #0.5Meat: 0 #0.1Hazard: 21 TopH: 0 TopF: 0 TopC: 0 #Hybrids: 0 #Spikes: 21
+Epoch: 0 #Agents: 30 #Herbi: 14 #Frugi: 6 #Carni: 10 #0.75Plants: 3511 #0.5Meat: 0 #0.1Hazard: 44 TopH: 0 TopF: 0 TopC: 0 #Hybrids: 0 #Spikes: 16
+Epoch: 0 #Agents: 30 #Herbi: 14 #Frugi: 7 #Carni: 9 #0.75Plants: 3515 #0.5Meat: 1 #0.1Hazard: 72 TopH: 0 TopF: 0 TopC: 0 #Hybrids: 0 #Spikes: 19
+Epoch: 0 #Agents: 30 #Herbi: 13 #Frugi: 6 #Carni: 11 #0.75Plants: 3523 #0.5Meat: 2 #0.1Hazard: 93 TopH: 0 TopF: 0 TopC: 0 #Hybrids: 0 #Spikes: 20
+Epoch: 0 #Agents: 30 #Herbi: 16 #Frugi: 8 #Carni: 6 #0.75Plants: 3529 #0.5Meat: 2 #0.1Hazard: 113 TopH: 0 TopF: 0 TopC: 0 #Hybrids: 0 #Spikes: 21
+Epoch: 0 #Agents: 30 #Herbi: 14 #Frugi: 11 #Carni: 5 #0.75Plants: 3536 #0.5Meat: 2 #0.1Hazard: 132 TopH: 0 TopF: 0 TopC: 0 #Hybrids: 0 #Spikes: 21
+Epoch: 0 #Agents: 30 #Herbi: 14 #Frugi: 8 #Carni: 8 #0.75Plants: 3541 #0.5Meat: 2 #0.1Hazard: 155 TopH: 0 TopF: 0 TopC: 0 #Hybrids: 0 #Spikes: 21
+Epoch: 0 #Agents: 30 #Herbi: 11 #Frugi: 10 #Carni: 9 #0.75Plants: 3548 #0.5Meat: 2 #0.1Hazard: 176 TopH: 0 TopF: 0 TopC: 0 #Hybrids: 0 #Spikes: 23
+Epoch: 0 #Agents: 30 #Herbi: 15 #Frugi: 6 #Carni: 9 #0.75Plants: 3553 #0.5Meat: 3 #0.1Hazard: 194 TopH: 0 TopF: 0 TopC: 0 #Hybrids: 0 #Spikes: 19
