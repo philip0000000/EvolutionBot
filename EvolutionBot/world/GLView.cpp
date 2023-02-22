@@ -136,10 +136,10 @@ void GLView::drawAgent(const Agent& agent)
 
 	if (live_agentsvis != 0)
 	{
-		//handle selected agent
-		if (agent.selectflag>0)
+		// handle selected agent
+		if (agent.selectflag)
 		{
-			//draw selection
+			// draw selection
 			glBegin(GL_POLYGON);
 			glColor3f(1, 1, 1);
 			drawCircle(agent.pos.x, agent.pos.y, agent.radius + 5);
@@ -147,7 +147,7 @@ void GLView::drawAgent(const Agent& agent)
 
 			glPushMatrix();
 			glTranslatef(agent.pos.x - 80, agent.pos.y + 20, 0);
-			//draw inputs, outputs
+			// draw inputs, outputs
 			float col;
 			float yy = 15;
 			float xx = 15;
@@ -174,7 +174,7 @@ void GLView::drawAgent(const Agent& agent)
 			}
 			yy += ss * 2;
 
-			//draw brain.
+			// draw brain
 			float offx = 0;
 			ss = 8;
 			xx = ss;
@@ -194,11 +194,12 @@ void GLView::drawAgent(const Agent& agent)
 					offx -= ss * 30;
 				}
 			}
+
 			glEnd();
 			glPopMatrix();
 		}
 		
-		//draw giving/receiving
+		// draw giving/receiving
 		if (agent.dfood != 0)
 		{
 			glBegin(GL_POLYGON);
@@ -303,7 +304,7 @@ void GLView::drawAgent(const Agent& agent)
 		if (scalemult > .3) //hide extra visual data if really far away
 		{
 			//debug sight lines
-		#ifdef HAVE_DEBUG
+			#ifdef HAVE_DEBUG
 			if (world->getIsDebug())
 			{
 				for (int i = 0; i<world->linesA.size(); i++)
@@ -317,7 +318,7 @@ void GLView::drawAgent(const Agent& agent)
 				world->linesA.resize(0);
 				world->linesB.resize(0);
 			}
-		#endif
+			#endif
 
 			//health
 			int xo = 18;
@@ -400,6 +401,23 @@ void GLView::drawAgent(const Agent& agent)
 				agent.pos.y + agent.radius*1.8 + 36,
 				GLUT_BITMAP_TIMES_ROMAN_24,
 				buf2, dr / 2 + 0.5, dr / 2 + 0.5, (1.0 - dr) / 2 + 0.5);
+
+			// draw genes
+			if (agent.selectflag)
+			{
+				// eyes
+				sprintf(buf2, "%d", agent.genes[0]);
+				RenderString(agent.pos.x - 75,
+					agent.pos.y + 120,
+					GLUT_BITMAP_TIMES_ROMAN_24,
+					buf2, 1.0f, 1.0f, 1.0f);
+				// ears
+				sprintf(buf2, "%d", agent.genes[1]);
+				RenderString(agent.pos.x - 65,
+					agent.pos.y + 120,
+					GLUT_BITMAP_TIMES_ROMAN_24,
+					buf2, 1.0f, 1.0f, 1.0f);
+			}
 		}
 	}
 }
@@ -900,7 +918,7 @@ void GLView::gluiCreateMenu()
 	live_fastmode = 0;
 	live_skipdraw = 1;
 	live_agentsvis = 1;
-	live_layersvis = 1;
+	live_layersvis = 5;
 	live_following = 0;
 #ifdef HAVE_DEBUG
 	live_debug = 0;

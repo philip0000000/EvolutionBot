@@ -259,7 +259,7 @@ void World::update()
 		{
 			iter = agents.erase(iter);
 		}
-		else if (iter->selectflag == 1 && deleting == 1)
+		else if (iter->selectflag && deleting == 1)
 		{
 			deleting = 0;
 			iter = agents.erase(iter);
@@ -819,7 +819,7 @@ void World::positionOfInterest(int type, float &xi, float &yi)
 		case 2: //interest of type 2 is the selected agent
 			for (int i = 0; i<agents.size(); i++)
 			{
-				if (agents[i].selectflag == 1)
+				if (agents[i].selectflag)
 				{
 					maxi = i;
 					break;

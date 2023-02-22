@@ -5,12 +5,15 @@
 #define INPUTSIZE 23
 #define OUTPUTSIZE 11
 #define NUMEYES 4
+#define MAX_NUMEYES 6
 #define NUMEARS 2
+#define MAX_NUMEARS 4
 #define BRAINSIZE 100
 #define CONNS 5
+#define GENESIZE 2
+
+
 #define LAYERS 5
-
-
 #define START_PROGRAM_IN_PAUSED_MODE FALSE
 
 

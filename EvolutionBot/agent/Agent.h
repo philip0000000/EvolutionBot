@@ -19,14 +19,13 @@ class Agent
 //IMPORTANT: if ANY variables are added/removed, you MUST check ReadWrite.cpp to see how loading and saving will be effected!!!
 public:
 	Agent();
+    Agent reproduce(Agent that, float MR, float MR2);
 
     void printSelf();
-    //for drawing purposes
-    void initEvent(float size, float r, float g, float b);
+    void initEvent(float size, float r, float g, float b); // for drawing purposes
     
     void tick();
 	void setActivity();
-    Agent reproduce(Agent that, float MR, float MR2);
     
 	float brainActivity;
 
@@ -54,14 +53,13 @@ public:
     int numboxes;
     
     // Agent senses
-    int nGenes[1];
+    int genes[GENESIZE];
     /* 0: number of eyes
-    *  1: ears
-    */
+     * 1: number of ears
+     */
     std::vector<float> eardir; //position of ears
     std::vector<float> eyefov; //field of view for each eye
     std::vector<float> eyedir; //direction of each eye
-    float fGenes[1];
 
     // Agent genetical physical attributes
     float radius; //radius of bot
@@ -89,7 +87,7 @@ public:
     // Agent interacting with the enviorment
     std::vector<float> in; //input: 4 eyes, sensors for R,G,B each, Sound, Smell, Health, Temp discomfort, 
     std::vector<float> out; //output: Left, Right forward motion, R, G, B, SPIKE, Share, Brainmod	
-    float give;    //is this agent attempting to give food to other agent?
+    float give;  //is this agent attempting to give food to other agent?
     float dfood; //what is change in health of this agent due to giving/receiving?
 
     // Agent info
@@ -103,7 +101,7 @@ public:
     // variables for drawing purposes ================================================================================
     float indicator;
     float ir; float ig; float ib; //indicator colors
-    int selectflag; //is this agent selected?
+    bool selectflag; //is this agent selected?
 };
 
 

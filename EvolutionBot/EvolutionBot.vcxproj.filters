@@ -109,15 +109,18 @@
     <Filter Include="Header Files\glui\GL">
       <UniqueIdentifier>{8c0d9667-66b6-485c-b3a5-883e17519908}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\world\old">
+      <UniqueIdentifier>{2e52991b-6dbd-4322-abf3-fcc3517d2c80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\world\old">
+      <UniqueIdentifier>{cb71c4cf-1a4a-4c83-a14d-f3ca0081e8d8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="world\main.cpp">
       <Filter>Source Files\world</Filter>
     </ClCompile>
     <ClCompile Include="world\ReadWrite.cpp">
-      <Filter>Source Files\world</Filter>
-    </ClCompile>
-    <ClCompile Include="world\View.cpp">
       <Filter>Source Files\world</Filter>
     </ClCompile>
     <ClCompile Include="world\World.cpp">
@@ -444,6 +447,9 @@
     <ClCompile Include="glut\src\util\xparsegeometry_repl.c">
       <Filter>Source Files\glut\src\util</Filter>
     </ClCompile>
+    <ClCompile Include="world\View.cpp">
+      <Filter>Source Files\world\old</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="world\config.h">
@@ -456,9 +462,6 @@
       <Filter>Header Files\world</Filter>
     </ClInclude>
     <ClInclude Include="world\settings.h">
-      <Filter>Header Files\world</Filter>
-    </ClInclude>
-    <ClInclude Include="world\View.h">
       <Filter>Header Files\world</Filter>
     </ClInclude>
     <ClInclude Include="world\World.h">
@@ -607,6 +610,9 @@
     </ClInclude>
     <ClInclude Include="glui\glui_internal_control.h">
       <Filter>Header Files\glui\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="world\View.h">
+      <Filter>Header Files\world\old</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

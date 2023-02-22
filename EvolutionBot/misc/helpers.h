@@ -49,5 +49,22 @@ inline float pointline(Vector2f posA, Vector2f posB, Vector2f posC){
 	return fabs((posC.x-posA.x)*(posB.y-posA.y) - (posC.y-posA.y)*(posB.x-posA.x))/normalLength;
 }
 
+inline int AddOne(int val, int min, int max)
+{
+	if (randf(0, 1) < 0.5)
+	{
+		val++;
+		if (val > max)
+			val = max;
+	}
+	else
+	{
+		val--;
+		if (val < min)
+			val = min;
+	}
+	return val;
+}
+
 
 #endif /* HELPERS_H */
